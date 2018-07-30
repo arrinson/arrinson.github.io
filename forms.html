@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FORMS</title>
+</head>
+<body>
+	       <br>    
+        <h1 id="forms">FORMS HTML:</h1>     
+        <div class="articulo">
+
+        <br>
+		<h3>FORMS:</h3>
+		<br>
+		<h5>ENTRADA DE TEXTO</h5>
+		<br>
+					<form>
+						  ingrese nombre:<br>
+						  <input type="text" name="firstname">
+						  <br>
+						  ingrese apellido:<br>
+						  <input type="text" name="lastname">
+					</form>
+		<br>
+		<h5>ENTRADA DE BOTON DE RADIO</h5>
+		<br>
+				<form>
+				  <input type="radio" name="gender" value="male" checked>MASCULINO<br>
+				  <input type="radio" name="gender" value="female">FEMENINO<br>
+				  <input type="radio" name="gender" value="other"> OTROS
+				</form> 
+
+		<br>
+		<h5>EL BOTON ENVIAR</h5>
+		<br>
+					<form action="/action_page.php">
+					  ingrese nombre:<br>
+					  <input type="text" name="firstname" value="arrinson">
+					  <br>
+					  ingrese apellido:<br>
+					  <input type="text" name="lastname" value="guerrero">
+					  <br><br>
+					  <input type="submit" value="Submit">
+					</form> 
+		<br>
+		<h5>EL ATRIBUTO DE DESTINO</h5>
+		<br>
+
+						<form action="/action_page.php" target="_blank">
+						  First name:<br>
+						  <input type="text" name="firstname" value="Mickey">
+						  <br>
+						  Last name:<br>
+						  <input type="text" name="lastname" value="Mouse">
+						  <br><br>
+						  <input type="submit" value="Submit">
+						</form> 
+		<br>
+		<h5>EL ATRIBUTO DEL METODO</h5>
+		<br>
+			<br>
+		<h5>EJEMPLO GET</h5>
+		<br>
+						<form action="/action_page.php" target="_blank" method="GET">
+						  First name:<br>
+						  <input type="text" name="firstname" value="Mickey">
+						  <br>
+						  Last name:<br>
+						  <input type="text" name="lastname" value="Mouse">
+						  <br><br>
+						  <input type="submit" value="Submit">
+						</form>
+		<br>
+		<h5>EJEMPLO POST</h5>
+		<br>
+						<form action="/action_page.php" target="_blank" method="POST">
+						  First name:<br>
+						  <input type="text" name="firstname" value="Mickey">
+						  <br>
+						  Last name:<br>
+						  <input type="text" name="lastname" value="Mouse">
+						  <br><br>
+						  <input type="submit" value="Submit">
+						</form>
+
+		<br>
+		<h5>ATRIBUTO DE NOMBRE</h5>
+		<br>
+						<form action="/action_page.php">
+						  First name:<br>
+						  <input type="text" value="Mickey">
+						  <br>
+						  Last name:<br>
+						  <input type="text" name="lastname" value="Mouse">
+						  <br><br>
+						  <input type="submit" value="Submit">
+						</form> 
+		<br>
+		<h5>AGRUPAR DATOS DE FORMULARIOS CON */FIELDSET*/ </h5>
+		<br>
+		<form action="/action_page.php">
+						  <fieldset>
+						  <br>
+						    <legend>Personal information:</legend>
+						    First name:<br>
+						    <input type="text" name="firstname" value="Mickey">
+						    <br>
+						    Last name:<br>
+						    <input type="text" name="lastname" value="Mouse">
+						    <br><br>
+						    <input type="submit" value="Submit">
+						  </fieldset>
+						</form>
+		<br>
+           </div>
+</body>
+</html>

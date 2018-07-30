@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>tabla</title>
+   <style>
+
+
+       body{
+
+        font-family: helvetica;
+
+       }
+   table,th,td{
+border: 1px solid purple;
+<!--border-collapse: collapse;-->
+     
+   
+   }
+th,td{
+    padding: 15px;
+}   
+th{
+
+    text-align:center;  
+}
+table{
+    border-spacing: 15px;
+    }
+
+table#t2{
+
+    width: 100%;
+    background-color: #1e591e;
+}
+
+
+ table#t3 tr:nth-child(even)
+ {
+    blackground-color: #00ff00;
+ }
+ table#t3 tr:nth-child(odd)
+ {
+    background-color: #A9f5f2
+
+ }
+
+ .harri{
+
+ background-color: rgb(230, 68, 68);
+    text-shadow: 0 0 2px black;
+    box-shadow: 0 0 rgb(0, 0, 0);
+    font-family: helvetica;
+
+ }
+
+ .hola{
+
+     color: #1e591e;
+     background-color: aquamarine;
+    margin: 10% 10% 10% 10%;
+
+ }
+
+</style>
+
+
+</head>
+<body>
+    <h2 class="harri">manejo de tablas</h2>
+    <table style="width: 100%">
+        <caption>mi primera tabla</caption>
+<tr>
+ 
+    <th>nombre aprendiz</th>
+    <th>apellidos aprendiz</th>
+    <th>numero de identificacion</th>
+</tr>
+<tr>
+<td>juan</td>
+<td>pablo</td>
+<td>harri</td>
+<tr>
+    <td>carlos</td>
+    <td>guerrero</td>
+    <td>tomas</td>
+
+
+
+</tr>
+
+
+
+</tr>
+
+    </table>
+    <table id="t2" style="width: 100%">
+            <caption>segunda tabla</caption>
+    <tr>
+    
+        <th>nombre aprendiz</th>
+        <th>apellidos aprendiz</th>
+        <th>numero de identificacion</th>
+    </tr>
+    <tr>
+    <td>juan</td>
+    <td>pablo</td>
+    <td>151551</td>
+    <tr>
+        <td>carlos</td>
+        <td>guerrero</td>
+        <td>16516516</td>
+    
+    
+    
+    </tr>
+    
+    
+    
+    </tr>
+    
+        </table>
+        <table id="t3"style = "width: 100%">
+            <caption>Datos Aprendices tabla3 </caption>
+            <tr>									
+               <th rowspan="4">Nombre Aprediz </th>
+               <th colspan="2">Apellido Aprendiz </th>
+               <th>Numero de identificacion </th>
+        </tr>
+        <tr>
+        <td>juan</td>
+        <td>pablo</td>
+        <td>harri</td>
+        <tr>
+            <td>carlos</td>
+            <td>guerrero</td>
+            <td>tomas</td>
+        
+        
+        
+        </tr>
+        
+        
+        
+        </tr>
+        
+            </table>
+<div class="hola"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam in repellat consectetur, sapiente doloremque natus obcaecati totam quidem expedita quos sed qui tempore commodi ipsam, dicta ex numquam dignissimos cupiditate?</p>/div>
+<div class="hola"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam in repellat consectetur, sapiente doloremque natus obcaecati totam quidem expedita quos sed qui tempore commodi ipsam, dicta ex numquam dignissimos cupiditate?</p>/div>
+<div class="hola"></div>
+
+
+</body>
+</html>
